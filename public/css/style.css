@@ -1,0 +1,214 @@
+body{
+    background-color: pink;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+
+}
+
+.container{
+    flex: 1;
+}
+
+/* Navbar */
+
+.navbar{
+    height: 70px;
+    background-color: white;
+}
+
+.nav-link {
+    color: #222222 !important;
+}
+
+
+.fa-regular{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+
+/* Footer */
+
+
+.f-links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+
+.f-links a:hover{
+    text-decoration: underline;
+
+}
+
+.f-info{
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #ebebeb;
+  
+
+
+}
+
+.f-social i{
+   
+    margin-right: 1rem;
+    font-size: 1.2rem;
+  
+}
+
+
+.f-social{
+    width: 100%;
+   
+}
+
+.f-links{
+    width: 100%;
+}
+
+footer{
+    bottom: 0 !important;
+   
+
+}
+
+
+/* Index  */
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  
+    
+
+}
+
+.signup{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:start;
+    flex-wrap: wrap;
+    height:530px !important;
+    
+    margin-right: 280px !important;
+
+}
+
+.listing-a{
+    text-decoration: none !important;
+}
+
+.bid-div{
+    padding: 10px 30px;
+}
+
+/* 
+.row .card{
+    flex-basis: 30% !important;
+} */
+
+.card-listing{
+    margin-left: 500px !important;
+    margin: 13px  !important;
+    border: none !important;
+    border-radius: 10px !important;
+  
+}
+
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.new-row{
+    margin-right: 150px !important;
+}
+
+
+
+.card-img-overlay:hover{
+    background-color: white;
+    opacity: 0.2;
+}
+
+
+.card-text{
+    font-weight: 350 !important;
+}
+
+.img{
+    border-radius: 10px !important;
+
+}
+
+/* New  */
+
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* Edit */
+
+.edit-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* Show */
+
+.list-d{
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* margin-left: 350px !important; */
+}
+
+.card-d{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+
+
+.one{
+    margin: 0px 5px !important;
+    padding: 0px 0px !important;
+    margin-left: 30px !important;
+    
+ 
+}
+
+.two{
+    width: 50% !important;
+    margin-right:500px !important;
+    margin-bottom: 15px !important;
+}
+
+.three{
+    width:  50% !important;
+    margin-left: 90px !important;
+
+}
+
+
+.error{
+    margin-bottom: 350px;
+    margin-right: 170px !important;
+    margin-top: 10px !important;
+}
+
+
