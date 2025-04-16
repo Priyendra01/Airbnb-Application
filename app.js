@@ -1,5 +1,7 @@
-
-
+if(process.env.Node_DEV != "Production"){
+    require('dotenv').config()
+}
+console.log(process.env.CLOUD_NAME);
 const express = require("express");
 const mongoose = require("mongoose");
 const path = require("path");
